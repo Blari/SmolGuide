@@ -39,6 +39,7 @@ public class DrawerNavigationListView extends ListView implements AdapterView.On
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        EventBus.getInstance().post( new DrawerSectionItemClickedEvent( (String) parent.getItemAtPosition( position ) ) );
+        EventBus.getInstance().post( new DrawerSectionItemClickedEvent(
+                (String) parent.getItemAtPosition( position ) ) );
     }
 }

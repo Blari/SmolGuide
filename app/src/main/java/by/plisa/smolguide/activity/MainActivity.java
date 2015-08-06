@@ -114,7 +114,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if( event.section.equalsIgnoreCase( getString(R.string.dw_map) ) ) {
-            getSupportFragmentManager().beginTransaction().replace( R.id.container, MapFragment.getInstance() ).commit();
+            getSupportFragmentManager().beginTransaction().replace( R.id.container,
+                    MapFragment.getInstance() ).commit();
 
         } else if( event.section.equalsIgnoreCase( getString(R.string.dw_gallery) ) ) {
             getSupportFragmentManager().beginTransaction().replace( R.id.container, GalleryFragment.getInstance() ).commit();

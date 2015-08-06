@@ -14,4 +14,5 @@
     <string name="attraction_url">https://gist.githubusercontent.com/Blari/5242a0b7419f94c32113/raw/14a4fa1bc8cc14f9272901ca03d4150de6cf2a23</string>
     <string name="gallery_url">https://gist.githubusercontent.com/Blari/e04cce7debef42f3dde5/raw/2d55489131d90cac895d296bcb57be6cf3f5659e</string>
     <string name="pins_url">https://gist.githubusercontent.com/Blari/6e446e47a541d48d2a2f/raw/742b2a7bd0c6927443e50193191762bf721ae5e0</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
